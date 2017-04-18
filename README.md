@@ -2,7 +2,7 @@
 Codes to make an Arduino to produce SPI commands. The SPI commands are sent via the serial port to the SPI
 
 # Protocol
-'1000000 WR CS<7:0> ADD<7:0> DATA<7:0>'    
+`1000000 WR CS<7:0> ADD<7:0> DATA<7:0>`    
 the first '1' is used to fix the size of the binary word (needed by atoi() fonction in C)
 then seven not used 0
 then 8 bits of Chip Select
